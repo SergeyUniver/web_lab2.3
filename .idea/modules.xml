@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EJBRemoteInterface/EJBRemoteInterface.iml" filepath="$PROJECT_DIR$/EJBRemoteInterface/EJBRemoteInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EntAppEJB/EntAppEJB.iml" filepath="$PROJECT_DIR$/EntAppEJB/EntAppEJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EntClient/EntClient.iml" filepath="$PROJECT_DIR$/EntClient/EntClient.iml" />
+    </modules>
+  </component>
+</project>
