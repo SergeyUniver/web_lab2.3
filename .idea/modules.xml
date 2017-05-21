@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EJBRemoteInterface/EJBRemoteInterface.iml" filepath="$PROJECT_DIR$/EJBRemoteInterface/EJBRemoteInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/EntAppEJB/EntAppEJB.iml" filepath="$PROJECT_DIR$/EntAppEJB/EntAppEJB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EntClient/EntClient.iml" filepath="$PROJECT_DIR$/EntClient/EntClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/WebService.iml" filepath="$PROJECT_DIR$/WebService/WebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebServieClient/WebServieClient.iml" filepath="$PROJECT_DIR$/WebServieClient/WebServieClient.iml" />
     </modules>
   </component>
 </project>

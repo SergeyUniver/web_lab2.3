@@ -23,7 +23,7 @@ public class DAO {
     /**
      * DAO constructor
      */
-    DAO() {
+    public DAO() {
 
     }
 
@@ -34,7 +34,6 @@ public class DAO {
 
     public Object readEntity(int id) throws DAOException {
         try {
-//            logger.info("Reading entity.");
             CriteriaBuilder cb = em.getCriteriaBuilder();
             CriteriaQuery query = cb.createQuery(entityClass);
             Root e = query.from(entityClass);
@@ -44,20 +43,4 @@ public class DAO {
             throw new DAOException("Cant't read " + entityClass.getSimpleName() + " with id " + id, ex);
         }
     }
-
-//    public void deleteResult(int id) throws DAOException {
-//        try {
-//            logger.info("Deleting entity.");
-//            em.getTransaction().begin();
-//            CriteriaBuilder cb = em.getCriteriaBuilder();
-//            CriteriaDelete delete = cb.createCriteriaDelete(entityClass);
-//            Root e = delete.from(entityClass);
-//            Query query = em.createQuery(delete.where(cb.equal(e.get("id"), id)));
-//            query.executeUpdate();
-//            em.getTransaction().commit();
-//        } catch (Exception ex){
-//            throw new DAOException("Can't delete " + entityClass.getSimpleName() + " with id " + id, ex);
-//        }
-//    }
-
 }
